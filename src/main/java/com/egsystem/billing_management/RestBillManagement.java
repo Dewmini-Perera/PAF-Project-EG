@@ -243,7 +243,7 @@ public class RestBillManagement {
 		}
 		return "can't delete";
 	}
-	
+	//put request
 	@PUT
 	@Path("update/date")
 	public String updateDate(String date) {
