@@ -81,14 +81,14 @@ public class Bill {
 	}
 
 
-
+	//for to string
 	@Override
 	public String toString() {
 		return "Bill [biil_id=" + biil_id + ", user_id=" + user_id + ", reading_date=" + reading_date
 				+ ", billing_date=" + billing_date + ", no_of_units=" + no_of_units + ", total_amount=" + total_amount
 				+ "]";
 	}
-
+	
 
 
 	
