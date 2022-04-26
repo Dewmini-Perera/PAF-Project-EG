@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class PriceTableManagement {
-
+	//connect database
 	public Connection getConnection() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");  
