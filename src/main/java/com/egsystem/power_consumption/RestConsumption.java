@@ -19,7 +19,7 @@ import jakarta.ws.rs.core.MediaType;
 
 @Path("consumption")
 public class RestConsumption {
-
+		//get request
 		@GET
 		@Produces(MediaType.APPLICATION_JSON)
 		public List<Unit> getData() {
