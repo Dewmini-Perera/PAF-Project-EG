@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 
 public class UnitTableManagement {
-
+	//connect database
 	public Connection getConnection() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");  
