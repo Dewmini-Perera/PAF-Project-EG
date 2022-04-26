@@ -2,6 +2,7 @@ package com.egsystem.power_consumption;
 
 import java.util.Objects;
 
+//create unit class
 public class Unit {
 	private int user_id;
 	private int unit_consumed;
