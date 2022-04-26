@@ -9,7 +9,7 @@ import com.egsystem.billing_management.Bill;
 import com.egsystem.power_consumption.Unit;
 
 public class BillTableManagement {
-
+	//connect database
 	public Connection getConnection() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");  
